@@ -1,0 +1,87 @@
+.body{
+    text-align: center;
+    .im{
+        position: relative;
+        img{
+            width: 100%;
+         }
+         p{
+            position: absolute;
+            bottom: 0;
+            padding: 40px;
+            font-size: xxx-large;
+            font-weight: 600;
+            text-shadow: 4px -2px 4px #f7c251;
+         }
+    }  
+    .artical{
+        font-size: xxx-large;
+        font-weight: 600;
+        text-shadow: 4px -2px 4px #f7c251;
+        padding: 40px;
+    }  
+        .contain{
+            width: 90%;
+            margin: 50px auto;
+            
+            .first{
+                @extend%flex;
+                gap: 25px;
+                align-items: normal;
+                div{
+                    width: 230px;
+                    @extend%flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    background-color: $color-g;
+                    border-radius: 5px;
+                    gap: 10px;
+                    padding: 10px;
+                    i{
+                    font-size: 51px;
+                    padding: 20px;
+                    }                
+                }
+                button{
+                    @extend%btn;
+                }   
+                button:hover{
+                    @extend%hover;
+                }
+            }
+            .second{
+                @extend%flex;
+                margin: 20px 0;
+                gap: 20px;
+                div{
+                    width: 350px;
+                }
+                p{
+                    text-align: left;
+                    padding: 10px 0;
+                }
+                button{
+                    @extend%btn;
+                }
+                    button:hover{
+                        @extend%hover;
+                    }
+                .img-slide{
+                    @extend%flex;
+                    gap: 5px;
+                    justify-content: space-around;
+                    img{
+                        border-radius: 50%;
+                        width: 150px;
+                        max-height: 150px;
+                        
+                    }
+                    :nth-child(3){
+                        height: 150px;
+                        width: 150px;
+                    }
+                }
+            }
+        
+        }
+}

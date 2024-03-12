@@ -1,0 +1,24 @@
+@import"color";
+%btn{
+    border: 1px solid $color-btn;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $color-btn;
+    background-color: $color-g;
+    align-self: center;
+}
+%flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+%hover{
+    background-color: $color-btn;
+    color: $color-g;
+    cursor: pointer;
+}

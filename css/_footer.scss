@@ -1,0 +1,36 @@
+footer{
+    background-color: $color-g;
+    padding: 20px 0;
+    .foot{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        p{
+            margin: 20px 0;
+        }
+        button{
+            @extend%btn;
+            font-size: 25px;
+            i{
+                padding: 10px;
+            }
+        }
+        button:hover{
+            @extend%hover;
+        }
+        ul{
+            @extend%flex;
+            a{
+                font-size: 30px;
+                color: $color-b;
+                padding: 10px;
+            }
+            a i:hover{
+                @extend%hover;
+             
+                
+            }
+        }
+    }
+    
+}

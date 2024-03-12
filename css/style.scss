@@ -1,0 +1,17 @@
+@import "variable";
+@import "color";
+@import "mix";
+@import "main";
+@import "header";
+@import "body";
+@import "footer";
+@import "media";
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}

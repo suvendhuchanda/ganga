@@ -1,0 +1,35 @@
+
+@media screen and (max-width:800px) {
+    .body .contain .second div {
+        width: auto;
+    }
+    
+}
+@media screen and(max-width:768px) {
+    .body .im p{
+        font-size: xx-large;
+    }
+    .body .artical{
+        font-size: xx-large;
+    }
+   
+    
+}
+@media screen and(max-width:600px) {
+    .header{
+        flex-direction:column;
+    }
+    .header .nav ul {
+        height: 40px;
+    }
+    .body .im p{
+        font-size: x-large;
+        padding: 20px;
+    }
+    .body .artical{
+        font-size: x-large;
+        padding: 20px;
+    }
+    
+}
+
